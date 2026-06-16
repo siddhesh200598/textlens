@@ -31,7 +31,6 @@ Paste text → get a summary, key points, and sentiment.
 ## Project structure
 
 ```
-textlens/
 ├─ app/
 │  ├─ api/summarize/route.ts   # Backend + AI (runs server-side)
 │  ├─ page.tsx                 # Frontend (React UI)
@@ -54,4 +53,3 @@ textlens/
 - **AI** — Groq running Llama 3.3 70B, in JSON mode for a predictable response.
 - **Security** — the API key lives server-side, never shipped to the browser.
 - **Deploy** — one Next.js project = frontend + backend in a single deployment.
-# textlens
